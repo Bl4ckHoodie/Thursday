@@ -1,0 +1,94 @@
+﻿/*
+To change this license header, choose License Headers in Project Properties.
+To change this template file, choose Tools | Templates
+and open the template in the editor.
+*/
+/* 
+    Created on : 25 Jun 2019, 1:54:04 PM
+    Author     : madas
+*/
+header, body{display: block;}
+body{background-color: black;overflow-x:hidden;}
+header{width:100%; background-color:#071A1E;text-align:center; height: 7vw; margin:5px auto 10pxauto; padding:2px;}
+header #logoIcon img {position: relative; right: -6.5vw;width:6vw;height:6vw;border-radius:12vw;}
+header img :hover {cursor: pointer;}
+header a img :hover {cursor: pointer;}
+#Paul {text-align: center;}
+#Paul a img {position: relative; width: 18vw; height: 18vw;right:1vw;}
+#Paul a  :hover {cursor: pointer;}
+#textbx{ position: relative;top:8vw;left:39%; } 
+#inboxs{top:12vw; left:-14vw;}
+#input{
+width: 17vw;
+height: 2vw;	
+}
+#ChatIcon img {position: relative; float: right;top:3vw; margin-left: 1.6vw; width: 3.5vw; height: 3.5vw; right: 1.8vw;}
+#PlateformIcon img {position: relative; float: right;top:3vw; margin-left: 1.6vw;  width: 3.5vw; height: 3.5vw;right: 1.8vw;}
+#DropboxIcon img {position: relative; float: right;top:3vw; margin-left: 1.6vw; width: 3.5vw; height: 3.5vw;right: 1.8vw; } 
+#Paul a  :active {top: 0.3vw;}
+.foot{display: block;background-color:#071A1E;position: relative;width:100%;height: 15vw;top: 21vw;}
+.foot a img{position:relative; width: 6vw; height:5vw; top: 2vw; border-radius: 10vw;left: 44.3vw;}
+#User{position: relative; top: 20px; left: 3%; width:16vw;}
+#User img {border-radius: 50%;width: 10vw;height:10vw;}
+#sumbit{position: relative;width:2vw;height:2vw;top:0.6vw;}
+/*#output{height: 30%;background-color: white; position: relative; z-index: 1; top: 20px; overflow-x: hidden; padding-top: 20px;width: 10%;right: 45%; background-color: #FFFAFA;}*/
+#User a {color: white;position: relative; left: 1vw; font-family: Arial; font-size: 2vw;}
+#results{color: white;position: relative;top: 6vw; font-size: 1.3vw; width: 2vw; word-break:break-all;}
+.copyright{
+	position:relative; top: -2vw; left:1vw;
+        width:6vw; font-size:1.2vw;
+}
+.copyright {
+  color: #fff;
+}
+.copyright i {
+  color: #FF0000;
+}
+.copyright a {
+  color: white;
+}
+
+@media (max-width: 760px){
+
+body{ overflow-x: hidden;}
+.foot{height: 100%;top: 21vw;}
+#textbx{ position: relative;top:8vw;left:39%; } 
+#inboxs{top:12vw; left:-14vw;}
+#input{
+width: 17vw;
+height: 2vw;	
+}
+#sumbit{width:2vw;height:2vw;top:0.6vw;}
+#Paul a img {position: relative; width: 18vw; height: 18vw;right:1vw;}
+header{height: 7vw; }
+#ChatIcon img {top:3vw; width: 3.5vw; height: 3.5vw; right: 1.8vw;}
+#PlateformIcon img {top:3vw;   width: 3.5vw; height: 3.5vw;right: 1.8vw;}
+#DropboxIcon img {top:3vw; width: 3.5vw; height: 3.5vw;right: 1.8vw; } 
+header #logoIcon img { right: -6.5vw;width:6vw;height:6vw;border-radius:12vw;}
+#results{top: 6vw; font-size: 1.3vw; width: 2vw; word-break:break-all;}
+#User img {border-radius: 50%;width: 10vw;height:10vw;}
+#User a { left: 1vw;font-size: 2vw;}
+.copyright{ top: -2vw; left:1vw;width:6vw; font-size:1.2vw;}
+.foot a img{ width: 6vw; height 5vw; top: 2vw;left: 44.3vw;}
+
+}
+/*============================================================================================================*/
+@media (max-width: 425px){
+.foot{height: 100%;top:56vw;}
+#textbx{ position: relative;top:40vw;left:27%; } 
+#inboxs{top:12vw; left:-14vw;}
+#input{width: 40vw;height: 4vw;	}
+#sumbit{width:5.5vw;height:5.5vw;top:1.5vw;}
+#Paul a img {position: relative; width: 33vw; height: 33vw;right:1vw;top:16vw;}
+header{height: 16vw; }
+#ChatIcon img {top:7vw; width: 7vw; height: 7vw; right: 1.8vw;}
+#PlateformIcon img {top:7vw;   width: 7vw; height: 7vw;right: 1.8vw;}
+#DropboxIcon img {top:7vw; width: 7vw; height: 7vw;right: 1.8vw; } 
+header #logoIcon img { right: -13vw;width:12vw;height:12vw;border-radius:12vw;}
+#results{top: 12vw; font-size: 2.5vw; width: 2vw; word-break:break-all;}
+#User img {border-radius: 50%;width: 14vw;height:14vw;}
+#User a { left: 13vw;font-size: 4vw;}
+.copyright{ top: -2vw; left:1vw;width:8vw; font-size:2.7vw;}
+.foot a img{ width: 12vw; height 10vw; top: 2vw;left: 40.3vw;}
+
+}

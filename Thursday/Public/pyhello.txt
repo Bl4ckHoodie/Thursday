@@ -1,0 +1,4 @@
+#Python CodePlate
+def Hello():
+  print("HEllo World")
+  return "Fuck this"

@@ -1,0 +1,262 @@
+﻿header {
+	background-color: #FFFFFF;
+	vertical-align: top;
+	position: relative;
+	z-index: auto;
+	width: 100%;
+	height: 120pt;
+	top: auto;
+	right: auto;
+}
+body {
+	background-repeat: repeat-y;
+	background-attachment: inherit;
+	background-size: 100% 100%;
+	background-position: 0pt 0pt;
+	background-color: #000000;
+}
+body #logo {
+	position: relative;
+	background-color:#FFFFFF;text-align:center;margin:5px auto 10pxauto; padding:2px;
+	z-index: auto;
+	width: 100%;
+	height: 60pt;}
+body #settings{
+	position: relative;
+	z-index: auto;
+	width: 100%;
+	height: 60pt;
+	background-color: #FFFFFF;
+}
+header #logo a img {
+	width: 60pt;
+	height: 55pt;
+	position: relative;
+}
+header #logo a:hover {cursor: pointer;}
+header #settings img{
+position : relative;
+height: 50pt;
+width: 14%;	
+left: 10pt;
+top : 4pt;
+}
+header #settings a{
+	position: relative;
+	right: 23pt;
+	
+}
+header #settings a img :hover{
+	cursor:pointer;
+}
+header #settings a img {
+top: 10pt;
+	float: right;
+	position: relative;
+    width: 4%;
+    height:30pt;
+    margin-right: 8pt;
+}
+.containers #Profile { display:inline-table; background-color: black; width: 82vw; height: 80vw; position: relative; left:2vw;}
+.Split {height:70vw; position: relative; z-index: 1; top: 10pt;float:left; overflow-x: hidden; padding-top: 20px;}
+.Profile {width: 30%; background-color:#FFFFFF;}
+.Profile a {color: white; font-family:arial;position:absolute;left:100px;top: 300px;}
+.ID #profile-pic {position: relative; left: 25%; width: 10vw; height:10vw; top:7%; border: 2px #dedede;border-radius: 80vw;}
+nav #status {position: relative;width: 2vw; height:2vw;top:3vw;float:right; right:0.4vw;}
+nav H2 {position: relative; top: 1vw; float:right;right:50%; color: #071A1E; font-family: Algerian; font-size:2.3vw}
+#contact{
+	position:relative;
+	top:3vw;
+	width:17vw;
+	height:4vw;
+	
+}
+.Chat{
+	 background-color: #FFFFFF; width: 69%; position: relative; float:right; 
+	 
+}
+#Contacts label{
+color:white;	
+}
+#m_time{
+position:relative;
+	float:right;
+	right:2vw;
+	font-size:1.3vw;
+}
+#mess{
+position:relative;
+top:4vw;
+left:0vw;
+font-size:1.2vw;	
+}
+#Contacts{
+	background-position: -7vw -13vw;
+	border: thin solid #FFFFFF;
+	display: block;
+	overflow: hidden;
+	position: relative;
+	top: 3.4vw;
+	height: 6.8vw;
+	background-image: url('img/astronaut_on_the_moon.jpg');
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	margin-top: 1.2vw;
+}
+.chater img{
+	position:relative;
+	float:left;
+	height: 3vw;
+	width: 16vw;
+}
+#Contacts img{
+         position:relative;
+	width:6vw;
+	float:left;
+	height:4vw;
+	top: 1.5vw;
+	border-radius: 8vw;
+	left:2vw;
+}
+#name{
+	position:relative;
+	font-size:1.8vw;
+	float:left;
+	top:0.4vw;
+	color: white;
+	left:2.7vw;		
+}
+#Contacts:hover{
+	border-color: #00CCFF;
+	cursor: pointer;
+}
+#Mass{
+	border: 1px solid #ccc;
+	width: 100%;
+	height: 100%;
+	position: relative;
+	visibility:hidden;
+        overflow:scroll;
+	top: 5vw;
+}
+
+@media (max-width: 760px){
+
+.Chat{ visibility:visible;width: 69%;}
+.Profile{width: 30%;}
+.ID #profile-pic {position: relative; left: 25%; width: 10vw; height:10vw;}
+nav H2 {right:50%;}
+#Contacts{	height: 6.8vw;}
+#Contacts img{ width:6vw;	height:4vw; }
+#name{	font-size:1.8vw;top:0.4vw;left:2.7vw;}
+#mess{font-size:1.2vw;top:4vw;}
+.time-right {font-size:1.1vw;}
+.time-left{font-size:1.1vw;}
+#m_time{font-size:1.3vw;}
+.chater img{height: 3vw; width: 16vw;}
+#contact{width:17vw; height:4vw;}
+.Split {height:70vw;}
+header #settings a img { height:30pt;}
+header #settings img{height: 50pt;width: 14%;}
+.lighter img{position:relative;float:left;left: 0vw;}
+.lighter p {position:relative;left:-3vw;}
+#Mass{width: 45vw;}
+#input{
+height:3vw;	
+font-size:1.3vw;}
+#sumbit{
+width:3vw;
+height:3vw;	
+left: 12vw;
+top: 1.1vw;
+}
+
+}
+
+@media (max-width: 425px){
+#contact{width:23vw; height:7vw;}
+#m_time{font-size:3vw;}
+nav H2 {font-size:5.3vw;}
+.Chat{ visibility:hidden;width:0vw; }
+.Profile{width: 100%; }
+.ID #profile-pic {left: 44%;width: 13vw; height:13vw;}
+nav H2 {right:45%;}
+#Contacts{	height: 14.8vw;}
+#Contacts img{ width:15vw;	height:10vw; }
+#name{	font-size:4.8vw; top:-1.7vw;left:6vw;}
+#mess{font-size:3.2vw;top:8vw;}
+.chater img{height: 6vw; width:23vw;}
+.Split {height:120vw;}
+header #settings a img { height:7vw;}
+header #settings img{height: 10vw;width: 25vw;}
+.container img {max-width: 20vw;width:100%;margin-left: 5vw;border-radius: 50%;}
+#Mass {width: 100%;}
+}
+.btn{display: inline-block;background-color:Teal;height:40px; width:60px;color: inherit; font: inherit; border:1px sold;outline:0;padding:0;cursor:pointer;}
+.container { border: 0.4vw sold #dedede; background-color: #f1f1f1; border-radius: 1vw; padding: 1vw; margin: 1vw 0vw;}
+.darker{ border-color:#ccc; background-color: #ddd;}
+.Message{width: 67.4vw;position:relative;top:2vw; float:right;height:50.8vw; background-color: #FFFAFA;}
+.container::after {
+ content: "";
+ clear: both;
+ display: table;
+}
+.container p {
+font-size:1.5vw;	
+	
+}
+#log_stat{
+float:right;
+}
+.container img {
+	max-width: 5vw;
+	width:100%;
+	margin-left: 3vw;
+	border-radius: 50%;
+}
+.lighter img{
+	margin-left: 0;
+	margin-right: 4vw;
+    position:relative;
+    float:left;
+    left: 0vw;
+	visibility: inherit;
+}
+.lighter p {
+	position:relative;
+	left:-3vw;
+}
+.container .right{
+	float: right;
+	margin-left: 4vw;
+	margin-right: 0;
+}
+.time-right {
+	float: right;
+	color: #aaa;
+	font-size:1.1vw;	
+}
+#textbx{
+visibility:hidden;
+}
+.time-left{
+	float:left;
+	color: #999;
+	font-size:1.1vw;
+}
+#input{
+position:relative;
+left: 17%;
+width:60%;
+height:3vw;	
+font-size:1.3vw;
+visibility:inherit;
+}
+#sumbit{
+visibility:inherit;
+position:relative;
+width:3vw;
+height:3vw;	
+left: 12vw;
+top: 1.1vw;
+}
